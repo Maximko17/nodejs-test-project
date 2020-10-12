@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+h1 {
+  color: #34323b;
+  font-size: 4rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.main-content {
+  height: 100%;
+  width: 50%;
+  text-align: left;
+  position: relative;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+nav a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: grey;
+}
+nav a:hover {
+  color: rgb(65, 63, 63);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer hr {
+  width: 100%;
+  color: rgb(230, 224, 224);
+}
+footer h3 {
+  color: #34323b;
+}
+.greeting-message {
+  color: rgb(65, 63, 63);
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#location-name {
+  font-size: 1.3rem;
+  color: #34323b;
+}
+
+#location-forecast {
+  width: 100%;
+  word-break: break-all;
+  white-space: normal;
+}
+
+#error-block {
+  color: red;
+  font-size: 1.3rem;
+}
