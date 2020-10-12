@@ -47,6 +47,22 @@ footer h3 {
   font-size: 1.5rem;
 }
 
+form input {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(65, 63, 63);
+}
+form button {
+  padding: 10px;
+  cursor: pointer;
+  background: rgba(65, 63, 63, 0.2);
+  border: 1px solid rgb(65, 63, 63);
+  border-radius: 3px;
+}
+form button:hover {
+  background: rgba(65, 63, 63, 0.5);
+}
+
 #location-name {
   font-size: 1.3rem;
   color: #34323b;
