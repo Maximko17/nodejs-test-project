@@ -4,6 +4,7 @@ const hbs = require("hbs");
 const { geocode, weatherInfo } = require("./utils/utils");
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "./templates/views"));
@@ -78,6 +79,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(5000, () => {
-  console.log("Started");
+app.listen(PORT, () => {
+  console.log("Started on port" + PORT);
 });

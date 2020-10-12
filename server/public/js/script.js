@@ -10,7 +10,7 @@ addressform.addEventListener("submit", (e) => {
 
   const inputAddress = document.querySelector("input").value;
 
-  fetch("http://localhost:5000/weather?address=" + inputAddress)
+  fetch("/weather?address=" + inputAddress)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
